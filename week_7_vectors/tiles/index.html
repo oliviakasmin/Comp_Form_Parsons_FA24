@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="
+https://cdn.jsdelivr.net/npm/paper@0.12.18/dist/paper-full.min.js
+"></script>
+
+		<!-- p5 web editor expects p5, this next bit prevents a console error -->
+		<script>
+			window.p5 = { _report: null };
+		</script>
+
+		<style>
+			canvas {
+				border: 1px solid black;
+				margin-bottom: 1em;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="500" height="500"></canvas>
+		<script src="sketch.js"></script>
+		<script src="ui.js"></script>
+	</body>
+</html>
