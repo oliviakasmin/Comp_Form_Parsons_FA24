@@ -1,6 +1,5 @@
-//require https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js
-
 // Inspiration: Anni Albers - Black-White-Yellow; Original 1926 (lost), re-woven by Gunta Stölzl in 1965
+// https://editor.p5js.org/oliviakasmin/sketches/WzCxvTEBv
 
 const beige = "#d6bfa1";
 const yellow = "#d6b965";
