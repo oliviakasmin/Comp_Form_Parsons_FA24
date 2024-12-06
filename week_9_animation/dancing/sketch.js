@@ -19,20 +19,15 @@ let params = {
 
 const pane = new Tweakpane.Pane();
 
-pane.addInput(params, "headAmplitude", { min: 0, max: 12 });
+pane.addInput(params, "pendulumAmplitude", { min: 0, max: 1 });
 pane.addInput(params, "hipsAmplitude", { min: 0, max: 30 });
 pane.addInput(params, "shoulderAmplitude", { min: 0, max: 15 });
+pane.addInput(params, "headAmplitude", { min: 0, max: 12 });
 pane.addInput(params, "headCircleSpeed", { min: 50, max: 400 });
-pane.addInput(params, "pendulumAmplitude", { min: 0, max: 1 });
 
 function setup() {
 	createCanvas(400, 400);
 	frameRate(60);
-	frameRateSlider = createSlider(0, 60, 60);
-	frameRateSlider.input(function updateFPS() {
-		frameRate(this.value());
-	});
-
 	strokeWeight(6);
 	stroke("white");
 	noFill();
