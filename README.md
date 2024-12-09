@@ -1,5 +1,6 @@
-## Comp Form - Sketches
-### MSDV - Parsons - Fall 2024
+# Computational Form - Parsons Fall 2024 - Sketches
+
+Data Visualization MS at Parsons School of Design
 
 #### Create 4 ~90 minute sketches each week based on different themes, primarily using [p5.js](https://p5js.org/)
 
