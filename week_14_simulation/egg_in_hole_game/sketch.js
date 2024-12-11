@@ -187,7 +187,7 @@ const losingScreen = () => {
 
 const reachedStar = () => {
 	const d = dist(egg.x, egg.y, star.x, star.y);
-	return d < eggSize / 2;
+	return d < eggSize;
 };
 
 const winningScreen = () => {

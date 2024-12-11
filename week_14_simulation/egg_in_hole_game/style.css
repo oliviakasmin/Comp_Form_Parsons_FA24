@@ -1,6 +1,6 @@
 html,
 body {
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	font-family: "Courier New", monospace;
 }
@@ -11,4 +11,5 @@ canvas {
 p {
 	width: 800px;
 	margin: 10px;
+	margin-bottom: 40px;
 }
