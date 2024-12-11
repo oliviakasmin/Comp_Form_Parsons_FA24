@@ -81,7 +81,7 @@ function draw() {
 	push();
 	translate(star.x, star.y);
 	rotate(frameCount / 100.0);
-	drawStar("#fdbc1e");
+	drawStar();
 	pop();
 
 	if (reachedStar()) {
@@ -115,7 +115,7 @@ const drawHoles = () => {
 	pop();
 };
 
-const drawStar = (color) => {
+const drawStar = (color = "#fdbc1e") => {
 	push();
 	fill(color);
 	strokeWeight(2);
